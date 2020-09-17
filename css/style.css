@@ -108,3 +108,97 @@ main a {
 
 }
 /* <!--james............................................................................................-->*/
+
+/* <!--noel............................................................................................-->*/
+
+.about {
+    min-height: 30vh;
+    background-color: red;
+    display: grid;
+    grid-template-columns: 25% 70%;
+    grid-gap: 2vw;
+    padding: 80px 10%;
+    color: white;
+}
+
+.column1 {
+    margin-left: 70px;
+
+
+}
+
+.image h1,
+p {
+    text-align: left;
+    color: white;
+    margin-top: 7px;
+
+}
+
+.exercise_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 50px;
+    background: white;
+    padding: 0 5%;
+    margin-bottom: 100px;
+
+
+}
+.shortdescription{
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.james{
+        box-shadow: 9px 9px 23px -1px rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.grid-header {
+    grid-column: 1/-1;
+}
+
+.imageExe {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    border-radius: 10px;
+    background: white;
+    transition: 1s;
+    box-shadow: 9px 9px 23px -1px rgba(0, 0, 0, 0.19);
+}
+
+#middle {
+    background: #C52F3E;
+    color: white;
+}
+
+#middle exercise-text {
+    color: white;
+}
+
+.card:nth-child(2) .imgbox {
+    background: url(../img/Rectangle%203.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.card:nth-child(3) .imgbox {
+    background: url(../img/Rectangle%204.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+/* <!--noel............................................................................................-->*/
+
