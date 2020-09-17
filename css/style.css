@@ -122,7 +122,8 @@ main a {
 }
 
 .column1 {
-    margin-left: 70px;
+    margin-left: 170px;
+
 
 
 }
@@ -254,6 +255,10 @@ p {
 
 .image {
     width: 30vw;
+    background: url(https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg);
+    background-size: cover;
+        background-position: center;
+
 }
 
 
