@@ -202,116 +202,6 @@ p {
 }
 /* <!--noel............................................................................................-->*/
 
-
-
-* <!--nirajan............................................................................................-->*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 11vh;
-}
-
-
-
-
-
-.soc-item {
-    padding: 20px;
-}
-
-.links {}
-
-
-
-
-
-
-.exercise {
-
-    background: white;
-    min-height: 50vh;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    padding: 20px 10%;
-    margin: 80px 0;
-    gap: 30px;
-}
-
-.exercise-tex {
-    color: black;
-
-}
-
-.imgbox {
-    height: 150px;
-    background: black;
-    background: url(../img/Rectangle%202.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.textbox {
-    min-height: 150px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px;
-
-}
-
-.read-more {
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-    background: #C52F3E;
-    color: white;
-    border-radius: 10px;
-}
-
-.exerciselist {
-    background-color: white;
-    min-height: 200px;
-}
-
-.filter {
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 30px;
-}
-
-.filter > * {
-    padding-bottom: 30px;
-}
-
-.filter p {
-    display: inline-block;
-    font-weight: bold;
-}
-
-.search {
-    width: 100%;
-    margin-bottom: 30px;
-    height: 40px;
-    border-radius: 20px;
-}
-
-.filter p {
-    padding-right: 40px;
-}
-
-.condition {
-    padding-bottom: 20px;
-}
-
-/* <!--nirajan............................................................................................-->*/
 /* <!--suman............................................................................................-->*/
 
 .exercisebody {
@@ -565,5 +455,115 @@ a:hover {
     font-size: 1.25 rem;
 }
 /* <!--suman............................................................................................-->*/
+/*
+* <!--nirajan............................................................................................-->*/*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 11vh;
+}
+
+
+
+
+
+.soc-item {
+    padding: 20px;
+}
+
+.links {}
+
+
+
+
+
+
+.exercise {
+
+    background: white;
+    min-height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    padding: 20px 10%;
+    margin: 80px 0;
+    gap: 30px;
+}
+
+.exercise-tex {
+    color: black;
+
+}
+
+.imgbox {
+    height: 150px;
+    background: black;
+    background: url(../img/Rectangle%202.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.textbox {
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.read-more {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    background: #C52F3E;
+    color: white;
+    border-radius: 10px;
+}
+
+.exerciselist {
+    background-color: white;
+    min-height: 200px;
+}
+
+.filter {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.filter > * {
+    padding-bottom: 30px;
+}
+
+.filter p {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.search {
+    width: 100%;
+    margin-bottom: 30px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.filter p {
+    padding-right: 40px;
+}
+
+.condition {
+    padding-bottom: 20px;
+}
+
+/* <!--nirajan............................................................................................-->*/
+
 
 
