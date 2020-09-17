@@ -1,4 +1,4 @@
-    fetch("https://spreadsheets.google.com/feeds/list/1xqdpfbLrugkU7uSUrQmSQ60uJkqsARoVZpEFN6JNBoo/od6/public/values?alt=json"
+ fetch("https://spreadsheets.google.com/feeds/list/1xqdpfbLrugkU7uSUrQmSQ60uJkqsARoVZpEFN6JNBoo/od6/public/values?alt=json"
          ).then(res => res.json())
       .then(showCities)
 
